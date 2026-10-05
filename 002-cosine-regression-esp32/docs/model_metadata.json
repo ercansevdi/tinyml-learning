@@ -1,0 +1,55 @@
+{
+  "model_file": "cosinus_int8.tflite",
+  "model_bytes": 3344,
+  "sha256": "f49a5599c3d09dad7a5c26cd2acdf5ff6528ac8d9ed9f05c9edda84aeeb4be00",
+  "schema_version": 3,
+  "input": {
+    "dtype": "int8",
+    "shape": [
+      1,
+      1
+    ],
+    "scale": 0.024316836148500443,
+    "zero_point": -128,
+    "min_representable_radians": 0.0,
+    "max_representable_radians": 6.200793217867613
+  },
+  "output": {
+    "dtype": "int8",
+    "shape": [
+      1,
+      1
+    ],
+    "scale": 0.008578787557780743,
+    "zero_point": -13
+  },
+  "operators": [
+    {
+      "name": "FULLY_CONNECTED",
+      "builtin_code": 9,
+      "version": 4,
+      "weights_shape": [
+        16,
+        1
+      ]
+    },
+    {
+      "name": "FULLY_CONNECTED",
+      "builtin_code": 9,
+      "version": 4,
+      "weights_shape": [
+        16,
+        16
+      ]
+    },
+    {
+      "name": "FULLY_CONNECTED",
+      "builtin_code": 9,
+      "version": 4,
+      "weights_shape": [
+        1,
+        16
+      ]
+    }
+  ]
+}

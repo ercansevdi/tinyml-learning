@@ -1,0 +1,53 @@
+{
+  "runtime": "ai-edge-litert 2.2.0, BUILTIN_REF",
+  "samples": 5,
+  "agreement": "All 5 predictions match the ESP32 screenshot after rounding to 5 decimals.",
+  "timing_measured": false,
+  "results": [
+    {
+      "x_radians_float32": 0.0,
+      "quantized_input": -128,
+      "unclamped_quantized_input": -128,
+      "reference_output_int8": 102,
+      "reference_prediction": 0.986560583114624,
+      "observed_esp32_prediction_rounded": 0.98656,
+      "absolute_difference": 5.831146240309337e-07
+    },
+    {
+      "x_radians_float32": 1.570796251296997,
+      "quantized_input": -63,
+      "unclamped_quantized_input": -63,
+      "reference_output_int8": -12,
+      "reference_prediction": 0.008578787557780743,
+      "observed_esp32_prediction_rounded": 0.00858,
+      "absolute_difference": 1.2124422192581752e-06
+    },
+    {
+      "x_radians_float32": 3.1415927410125732,
+      "quantized_input": 1,
+      "unclamped_quantized_input": 1,
+      "reference_output_int8": -128,
+      "reference_prediction": -0.986560583114624,
+      "observed_esp32_prediction_rounded": -0.98656,
+      "absolute_difference": 5.831146240309337e-07
+    },
+    {
+      "x_radians_float32": 4.71238899230957,
+      "quantized_input": 66,
+      "unclamped_quantized_input": 66,
+      "reference_output_int8": -16,
+      "reference_prediction": -0.025736361742019653,
+      "observed_esp32_prediction_rounded": -0.02574,
+      "absolute_difference": 3.6382579803456716e-06
+    },
+    {
+      "x_radians_float32": 6.2831854820251465,
+      "quantized_input": 127,
+      "unclamped_quantized_input": 130,
+      "reference_output_int8": 127,
+      "reference_prediction": 1.2010302543640137,
+      "observed_esp32_prediction_rounded": 1.20103,
+      "absolute_difference": 2.543640136298819e-07
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+ESP32 serial output, transcribed from the supplied monitor screenshots.
+Date: 2026-10-05 (Europe/Istanbul).
+
+Startup diagnostics, recorded before the five-point prediction loop was added:
+Model hazir! Arena kullanimi: 972 bayt
+Giris scale=0.024316836 zp=-128 | Cikis scale=0.008578788 zp=-13
+
+One complete five-point cycle, ordered from x=0:
+x=0.0000 rad | q=-128 | Model=0.98656 | Gercek=1.00000 | Hata=0.01344
+x=1.5708 rad | q=-63 | Model=0.00858 | Gercek=0.00000 | Hata=0.00858
+x=3.1416 rad | q=1 | Model=-0.98656 | Gercek=-1.00000 | Hata=0.01344
+x=4.7124 rad | q=66 | Model=-0.02574 | Gercek=0.00000 | Hata=0.02574
+x=6.2832 rad | q=127 | Model=1.20103 | Gercek=1.00000 | Hata=0.20103

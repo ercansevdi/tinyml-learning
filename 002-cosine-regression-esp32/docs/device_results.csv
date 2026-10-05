@@ -1,0 +1,6 @@
+x_radians_displayed,quantized_input,model_prediction,actual_cosine_displayed,absolute_error_displayed
+0.0000,-128,0.98656,1.00000,0.01344
+1.5708,-63,0.00858,0.00000,0.00858
+3.1416,1,-0.98656,-1.00000,0.01344
+4.7124,66,-0.02574,0.00000,0.02574
+6.2832,127,1.20103,1.00000,0.20103
