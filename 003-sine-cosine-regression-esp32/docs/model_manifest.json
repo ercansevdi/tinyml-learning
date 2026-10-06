@@ -1,0 +1,16 @@
+{
+  "model_bytes": 3816,
+  "fnv1a32": "B64E1E67",
+  "sha256": "ea5ea10f02bebc4180006aaa7e5c7beff3814397eb8c10c630173368b3e04feb",
+  "format": "TFLite INT8",
+  "output_order": [
+    "sine",
+    "cosine"
+  ],
+  "input_unit": "radians",
+  "calibrated_range": [
+    0,
+    6.283185307179586
+  ],
+  "disable_per_channel": true
+}
